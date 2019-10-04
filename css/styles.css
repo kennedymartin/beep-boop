@@ -1,3 +1,18 @@
+.jumbotron {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: cadetblue;
+  color: aliceblue;
+}
+
+.container {
+  color: cadetblue;
+}
+
+#opening-paragraph {
+  font-style: italic;
+  background-color: white;
+}
+
 .btn {
   color: white;
   background-color: deeppink;

@@ -6,7 +6,7 @@
 
 ## Description
 
-_This form-based vacation suggester asks the user questions and provides a suggestion on where they should vacation, based on their answers. This project is an exercise in arrays and looping. Link to the beep boop site [here](https://kennedymartin.github.io/beep-boop/)._
+_This web application tales a number from the user and returns a range of numbers with some exceptions. This project is an exercise in arrays and looping. Link to the application site [here](https://kennedymartin.github.io/beep-boop/)._
 
 ## Setup/Installation Requirements
 

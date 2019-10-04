@@ -1,3 +1,8 @@
 .btn {
   color: white;
   background-color: deeppink;
+}
+
+#result {
+  display: none;
+}

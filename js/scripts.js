@@ -1,13 +1,14 @@
 // Business (or back-end) logic:
-var result = Array.apply(null, {length: N}).map(Number.call, Number) 
-var string = result.toString() 
+// var result = Array.apply(null, {length: N}).map(Number.call, Number) 
+var finalResult = function(string) {
   if str.includes("1") {
   result.push("Beep!");
-} else if str.includes("2") {
+  } else if str.includes("2") {
   result.push ("Boop");
-} else str.includes("3") {
+  } else str.includes("3") {
   result.push ("I'm sorry, Dave. I'm afraid I can't do that.")
-}
+  }
+};
     console.log(result);
 
 
@@ -17,6 +18,9 @@ $(document).ready(function(){
   $("form#form1").submit(function() {
     event.preventDefault();
     var N = parseInt($("#input").val());
+    var result = Array.apply(null, {length: N}).map(Number.call, Number)
+    var string = result.toString();
+    var finalResult = function(string);
    
     // var result = Array.apply(null, {length: N}).map(Number.call, Number)
     // console.log(result);

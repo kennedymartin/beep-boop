@@ -1,16 +1,8 @@
-// Business (or back-end) logic:
-var range = function(number) {
-
-}
-
-
-
-// Everything below this line is user interface (or front-end) logic:
-
 $(document).ready(function(){
-  $("form#number").submit(function() {
+  $("form#form1").submit(function() {
     event.preventDefault();
-    var number = parseInt($("input#number").val());
-    var result = range(number);
+    var N = parseInt($("#input").val());
+    var result = Array.apply(null, {length: N}).map(Number.call, Number)
+    console.log(result);
   });
 });
